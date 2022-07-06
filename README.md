@@ -7,7 +7,7 @@ Project that aims to help users in the organization of the day to day, in order 
 <p align="center">Project to Rocketseat Platform</p>
 
 <p align="center">Credits by Rocketseat | GB Dev</p>
-<p align="center">https://spiderman-multiverse-dun.vercel.app/</p>
+<p align="center">https://todo-app-rocketseat.vercel.app/</p>
 
 # 💻 Developing differences...
 
