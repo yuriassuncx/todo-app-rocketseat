@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --gray-100: #f2f2f2;
+    --gray-600: #1a1a1a;
+}
+
+body {
+    background: var(--gray-600);
+    color: var(--gray-100);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
