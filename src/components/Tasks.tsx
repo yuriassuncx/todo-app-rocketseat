@@ -1,7 +1,7 @@
-import { TbClipboardText } from "react-icons/tb";
 import { ITask } from "../App";
 import { Task } from "./Task";
 
+import Clipboard from '../assets/Clipboard.svg';
 interface Props {
     tasks: ITask[];
     onDelete: (taskId: string) => void;
@@ -44,8 +44,8 @@ export function Tasks({ tasks, onDelete, onComplete }: Props) {
 
                 {tasks.length <= 0 && (
                     <section className="mt-16 flex flex-col items-center justify-center gap-4 text-gray-300 text-center">
-                        <div className="opacity-30">
-                            <TbClipboardText size={50} />
+                        <div className="opacity-60">
+                            <img src={Clipboard} className="w-12 h-12" />
                         </div>
                         <div>
                             <p className="font-bold">Você ainda não possui tarefas cadastradas</p>

@@ -1,6 +1,7 @@
-import todoImage from '../assets/todoLogo.svg';
-import { AiOutlinePlusCircle } from 'react-icons/ai'
 import { ChangeEvent, FormEvent, useState } from 'react';
+
+import todoImage from '../assets/todoLogo.svg';
+import PlusIcon from '../assets/PlusIcon.svg';
 
 interface Props {
     onAddTask: (taskTitle: string) => void;
@@ -39,7 +40,7 @@ export function Header({ onAddTask }: Props) {
                     disabled={!title}
                 >
                     Criar
-                    <AiOutlinePlusCircle size={20} />
+                    <img src={PlusIcon} className="w-5 h-5" />
                 </button>
             </form>
         </header>

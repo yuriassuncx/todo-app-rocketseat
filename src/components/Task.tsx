@@ -1,7 +1,7 @@
 import { ITask } from '../App';
 
-import { TbTrash } from 'react-icons/tb';
-import { BsFillCheckCircleFill } from 'react-icons/bs';
+import Trash from '../assets/Trash.svg';
+import CheckIcon from '../assets/CheckIcon.svg';
 
 interface Props {
     task: ITask;
@@ -17,7 +17,7 @@ export function Task({ task, onDelete, onComplete }: Props) {
                 onClick={() => onComplete(task.id)}
             >
                 {task.isCompleted 
-                    ? <div className='w-full h-full text-purple'><BsFillCheckCircleFill /> </div>
+                    ? <img src={CheckIcon} className='w-full h-full text-purple' />
                     : <div className="w-full h-full border-2 border-solid border-blue rounded-[50%]" />
                 }
             </button>
@@ -34,7 +34,7 @@ export function Task({ task, onDelete, onComplete }: Props) {
                 className="text-gray-300"
                 onClick={() => onDelete(task.id)}
             >
-                <TbTrash size={20} />
+                <img src={Trash} className="w-5 h-5" />
             </button>
         </div>
     )
