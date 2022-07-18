@@ -1,20 +1,20 @@
 # ToDo App
 
-Project that aims to help users in the organization of the day to day, in order to make them create tasks and mark them as completed as soon as they are finished.
+Project developed according to the Ignite course, with the aim of building a cafe ecommerce.
 
-![teste1](https://user-images.githubusercontent.com/104099580/177633857-ac0cffbf-160c-4a04-af5c-99f3a3f2cadc.png)
+![Captura de tela 2022-07-18 174802](https://user-images.githubusercontent.com/104099580/179615053-99564420-04c3-4010-9109-3d9d0acc60eb.png)
 
 <p align="center">Project to Rocketseat Platform</p>
 
 <p align="center">Credits by Rocketseat | GB Dev</p>
-<p align="center">https://todo-app-rocketseat.vercel.app/</p>
+<p align="center">https://coffee-delivery-ignite.vercel.app/</p>
 
 # 💻 Developing differences...
 
 - [x] Built with Tailwindcss
 - [x] Responsive Design
 
-![mobile](https://user-images.githubusercontent.com/104099580/177633867-a198e95d-32a4-4125-bea5-62f36e7438cc.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/104099580/179615377-c583f704-06a4-47bd-a097-a9b4ef084e5f.gif)
 
 # 🚀 Technologies Used
 
@@ -22,12 +22,13 @@ Project that aims to help users in the organization of the day to day, in order 
  - [x] Typescript
  - [x] ReactJS
  - [x] Vite
+ - [x] Zod
 
 #### 🎨 STYLES:
  - [x] Tailwindcss
- - [x] ReactIcons
+ - [x] PhosphorReact
  
- ![teste2](https://user-images.githubusercontent.com/104099580/177633864-13a717e2-5273-411f-a3e7-b39314d383e4.png)
+![Captura de tela 2022-07-18 175159](https://user-images.githubusercontent.com/104099580/179615242-41582129-a9f4-4d45-955e-769ec5d9a1b2.png)
 
 #### 🖥 DEPLOY:
  - [x] Vercel
